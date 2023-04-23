@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./assets/image/favicon-32x32.png" type="image/x-icon">
+        <link rel="stylesheet" href="./dist/style.css">
+        <title>Home - Blogging</title>
+    </head>
+
+    <body class='h-full' id='top'>
+        <div class="p-7"></div>
+        <nav class='fixed top-0 w-full shadow bg-slate-50 p-2 z-50'>
+            <div class="mx-10 flex align-content-center justify-between">
+                <header>
+                    <h2 class='text-2xl font-bold'>
+                        <a href="#top">Blogging</a>
+                    </h2>
+                </header>
+                <input type="checkbox" name="dropdown-btn-nav" class='dropdown-btn' id="dropdown-btn-nav">
+                <label for="dropdown-btn-nav" class="hamburger ml-auto" aria-label='dropdown-nav-button'>
+                    <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                </label>
+                <div class="collapsible-navbar flex sm:flex-col md:flex-row gap-6 justify-center content-center">
+                    <ul class='flex gap-6 sm:flex-col md:flex-row md:items-center md:justify-center md:content-center'>
+                        <li class='nav-item'>
+                            <a href="./index.html" class='nav-link active'>Home</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a href="./articles.html" class='nav-link'>Articles</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a href="./about.html" class='nav-link'>About us</a>
+                        </li>
+                    </ul>
+                    <div class="flex gap-2">
+                        <a href="./login.html" class='btn-secondary-outline'>Login</a>
+                        <a href="./register.html" class='btn-secondary-outline'>Register</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class='background-container mb-4'>
+            <img src="./assets/image/tablet-web-pc.jpg" alt="Tablet web" class='object-cover h-full w-full background'>
+            <div class="absolute top-0 h-full w-full flex justify-center items-center">
+                <a href="#" aria-roledescription='button'
+                    class='btn-secondary-outline text-white shadow-lg hover:bg-slate-800 duration-500 p-2 hover:neon-white'>Learn
+                    more
+                    about
+                    us</a>
+            </div>
+        </div>
+
+        <main class='mx-8 flex flex-col gap-2'>
+            <section class='flex flex-col relative justify-center gap-4'>
+                <h2 class='text-3xl text-center'>Popular articles</h2>
+
+                <div class="flex sm:flex-col md:flex-row justify-center items-center sm:gap-4 md:gap-0">
+                    <div class="card-sm">
+                        <a href="./post.html">
+                            <img src="./assets/image/news-in-phone.jpg" alt="News in phone">
+                            <header>
+                                <h2 class='text-2xl text-center'>Lorem ipsum</h2>
+                                <ul class='tags-lists'>
+                                    <li class='tags'>Popular</li>
+                                    <li class='tags'>News</li>
+                                    <li class='tags'>Tech</li>
+                                    <li class='tags'>Mobile</li>
+                                </ul>
+                                <span class='font-bold text-xs'>UnknownRori - 14 Feburary 2023</span>
+                            </header>
+                        </a>
+                    </div>
+                    <div class="card-sm">
+                        <a href="./post.html">
+                            <img src="./assets/image/old-typesetter.jpg" alt="Old Typesetter">
+                            <header>
+                                <h2 class='text-2xl text-center'>Lorem ipsum</h2>
+                                <ul class='tags-lists'>
+                                    <li class='tags'>Popular</li>
+                                    <li class='tags'>Tutorial</li>
+                                </ul>
+                                <span class='font-bold text-xs'>UnknownRori - 3 April 2023</span>
+                            </header>
+                        </a>
+                    </div>
+                    <div class="card-sm">
+                        <a href="./post.html">
+                            <img src="./assets/image/news.jpg" alt="News">
+                            <header>
+                                <h2 class='text-2xl text-center'>Lorem ipsum</h2>
+                                <ul class='tags-lists'>
+                                    <li class='tags'>Popular</li>
+                                    <li class='tags'>News</li>
+                                </ul>
+                                <span class='font-bold text-xs'>UnknownRori - 12 January 2022</span>
+                            </header>
+                        </a>
+                    </div>
+                    <div class="card-sm">
+                        <a href="./post.html">
+                            <img src="./assets/image/news-in-phone.jpg" alt="News in phone">
+                            <header>
+                                <h2 class='text-2xl text-center'>Lorem ipsum</h2>
+                                <ul class='tags-lists'>
+                                    <li class='tags'>Popular</li>
+                                    <li class='tags'>News</li>
+                                    <li class='tags'>Tech</li>
+                                </ul>
+                                <span class='font-bold text-xs'>UnknownRori - 22 May 2022</span>
+                            </header>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class='flex flex-col gap-2 my-4'>
+                <h2 class='text-3xl'>Latest News</h2>
+                <div class="card-md">
+                    <header>
+                        <h2 class='text-2xl'>
+                            <a href="./post.html">
+                                Lorem ipsum
+                            </a>
+                        </h2>
+                    </header>
+                    <div class='flex sm:flex-col md:flex-row gap-2'>
+                        <img src="./assets/image/news-in-phone.jpg" alt="News in phone">
+                        <div class='flex flex-col'>
+                            <article>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis quas sit earum
+                                doloremque
+                                veniam. Alias unde reprehenderit architecto, laudantium sequi beatae dolor pariatur.
+                                Explicabo
+                                ex fugiat ipsa, rerum magni saepe.
+
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta fuga iste rerum saepe
+                                quibusdam
+                                velit cupiditate voluptatibus possimus, ipsa sit nam ut blanditiis distinctio, quas
+                                architecto
+                                atque est sapiente optio.
+                            </article>
+
+                            <span class='font-bold text-sm'>UnknownRori - 12 April 2023</span>
+                            <ul class="tags-lists">
+                                <li class="tags">Tech</li>
+                                <li class="tags">Mobile</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-md">
+                    <header>
+                        <h2 class='text-2xl'>
+                            <a href="./post.html">
+                                Lorem ipsum
+                            </a>
+                        </h2>
+                    </header>
+                    <div class='flex sm:flex-col md:flex-row gap-2'>
+                        <img src="./assets/image/news-in-phone.jpg" alt="News in phone">
+                        <div class='flex flex-col'>
+                            <article>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis quas sit earum
+                                doloremque
+                                veniam. Alias unde reprehenderit architecto, laudantium sequi beatae dolor pariatur.
+                                Explicabo
+                                ex fugiat ipsa, rerum magni saepe.
+
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta fuga iste rerum saepe
+                                quibusdam
+                                velit cupiditate voluptatibus possimus, ipsa sit nam ut blanditiis distinctio, quas
+                                architecto
+                                atque est sapiente optio.
+                            </article>
+
+                            <span class='font-bold text-sm'>UnknownRori - 9 April 2023</span>
+                            <ul class="tags-lists">
+                                <li class="tags">Tech</li>
+                                <li class="tags">Mobile</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-md">
+                    <header>
+                        <h2 class='text-2xl'>
+                            <a href="./post.html">
+                                Lorem ipsum
+                            </a>
+                        </h2>
+                    </header>
+                    <div class='flex sm:flex-col md:flex-row gap-2'>
+                        <img src="./assets/image/old-typesetter.jpg" alt="News in phone">
+                        <div class='flex flex-col'>
+                            <article>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis quas sit earum
+                                doloremque
+                                veniam. Alias unde reprehenderit architecto, laudantium sequi beatae dolor pariatur.
+                                Explicabo
+                                ex fugiat ipsa, rerum magni saepe.
+
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta fuga iste rerum saepe
+                                quibusdam
+                                velit cupiditate voluptatibus possimus, ipsa sit nam ut blanditiis distinctio, quas
+                                architecto
+                                atque est sapiente optio.
+                            </article>
+
+                            <span class='font-bold text-xs'>UnknownRori - 3 April 2023</span>
+                            <ul class='tags-lists'>
+                                <li class='tags'>Popular</li>
+                                <li class='tags'>Tutorial</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class='bg-black flex text-white md:gap-2 p-6 sm:flex-col md:flex-row sm:gap-4'>
+            <section class='w-[33%]'>
+                <h2 class='text-3xl'>Blogging Corp</h2>
+                <p class='text-sm'>2023&copy; Made with ❤️ by UnknownRori</p>
+            </section>
+            <section class='w-[33%]'>
+                <h2 class='text-3xl'>Navigation</h2>
+                <ul>
+                    <li>
+                        <a href="./index.html" class='nav-link-footer active'>Home</a>
+                    </li>
+                    <li>
+                        <a href="./articles.html" class='nav-link-footer'>Articles</a>
+                    </li>
+                    <li>
+                        <a href="./about.html" class='nav-link-footer'>About us</a>
+                    </li>
+                    <li>
+                        <a href="./register.html" class='nav-link-footer'>Register</a>
+                    </li>
+                    <li>
+                        <a href="./login.html" class='nav-link-footer'>Login</a>
+                    </li>
+                </ul>
+            </section>
+            <section class='w-[33%]'>
+                <h2 class='text-3xl'>Developer's Social Media</h2>
+                <ul>
+                    <li>
+                        <a href="https://unknownrori-firebase.web.app/">Developer's Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="https://stackoverflow.com/users/13991588/unknownrori">Stackoverflow</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/UnknownRori">Github</a>
+                    </li>
+                    <li>
+                        <a href="https://unknownrori.itch.io/">Itch.io</a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/UnknownRori">Twitter</a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/unknownrori/">Instagram</a>
+                    </li>
+                    <li>
+                        <a href="https://discord.com/users/611902987744313345">Discord</a>
+                    </li>
+                    <li>
+                        <a href="https://www.figma.com/@UnknownRori">Figma</a>
+                    </li>
+                    <li>
+                        <a href="https://steamcommunity.com/id/UnknownRori">Steam</a>
+                    </li>
+                </ul>
+            </section>
+        </footer>
+    </body>
+
+</html>
