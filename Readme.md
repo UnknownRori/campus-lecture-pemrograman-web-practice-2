@@ -9,13 +9,13 @@ Simple site for blogging stuff
 > git clone ...
 
 # Install dependency
-> pnpm install | npm install
+> pnpm install || npm install
 
 # Run the development watch
-> pnpm run dev | npm run dev
+> pnpm run dev || npm run dev
 
 # Run the production build
-> pnpm run build | npm run build
+> pnpm run build || npm run build
 
 # Serve the site using drag and drop to browser
 ```
